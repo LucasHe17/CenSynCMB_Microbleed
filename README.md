@@ -100,7 +100,7 @@ Maintainers: see [Publishing weights](docs/RELEASING.md) for browser and command
 - Supplied modalities must have the same shape and affine. The script checks their grids; anatomical registration must be completed beforehand.
 - Omitted T1/T2 channels are zero-filled. An explicitly supplied path that does not exist raises an error.
 - IDs must begin with a letter or digit and contain only letters, digits, `_`, `-` or `.`. Duplicate IDs in a batch are rejected.
-- Each modality is reoriented to RAS, resampled to 1 mm isotropic spacing, scaled using the 1st–99th percentiles, and normalised over nonzero voxels. The model channel order is **T2*/SWI, T1, T2**.
+- Each modality is reoriented to RAS, resampled to 1 mm isotropic spacing, scaled using the 1st–99th percentiles, and normalised over nonzero voxels. The model channel order is **T2\*/SWI, T1, T2**.
 
 No participant images or annotations are distributed here.
 
