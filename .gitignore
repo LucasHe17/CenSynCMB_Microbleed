@@ -1,0 +1,20 @@
+# Model assets are distributed through GitHub Releases.
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.partial
+# Local images, predictions, environments and Python cache.
+*.nii
+*.nii.gz
+data/
+outputs/
+release-assets/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+.env
+.env.*

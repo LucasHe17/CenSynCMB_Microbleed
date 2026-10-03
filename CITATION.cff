@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "Please cite the CenSynCMB paper. Proceedings DOI and pages will be added when available."
+type: software
+title: "CenSynCMB: pretrained microbleed detection inference"
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/LucasHe17/CenSynCMB_Microbleed"
+authors:
+  - family-names: He
+    given-names: Lucas
+preferred-citation:
+  type: conference-paper
+  title: "CenSynCMB: Centre Maps and Physics-Guided Synthesis for Microbleed Detection"
+  year: 2026
+  notes: "Accepted as a regular/full paper at IEEE BIBM 2026; proceedings metadata pending."
+  authors:
+    - family-names: He
+      given-names: Lucas
+    - family-names: Zhang
+      given-names: Hanyuan
+    - family-names: Li
+      given-names: Krinos
+    - family-names: Saccoh
+      given-names: Adama Fatima
+    - family-names: Ingala
+      given-names: Silvia
+    - family-names: Rehwald
+      given-names: Rafael
+    - family-names: de Bruijne
+      given-names: Marleen
+    - family-names: Barkhof
+      given-names: Frederik
+    - family-names: Davies
+      given-names: Rhodri
+    - family-names: Sudre
+      given-names: Carole H.

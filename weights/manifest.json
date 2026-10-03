@@ -1,0 +1,26 @@
+{
+  "filename": "censyncmb_v1.0.0.pth",
+  "sha256": "95d4d35f36aea631128e787ee18182db9c4b55fc8d22d7cd6c58a983c509c965",
+  "bytes": 94599306,
+  "download_url": "https://github.com/LucasHe17/CenSynCMB_Microbleed/releases/download/v1.0.0/censyncmb_v1.0.0.pth",
+  "model": "CenSynCMB",
+  "format_version": 1,
+  "config": {
+    "backbone": "attentionunet",
+    "aux_heads": "c1",
+    "train_crop_size": [
+      96,
+      96,
+      96
+    ],
+    "roi_size": [
+      128,
+      128,
+      128
+    ],
+    "sw_batch_size": 1,
+    "sw_overlap": 0.6,
+    "amp": true
+  },
+  "tensor_equality_verified": true
+}

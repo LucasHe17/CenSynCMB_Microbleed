@@ -1,0 +1,12 @@
+[
+  {
+    "sid": "subject001",
+    "t2s": "../data/subject001_swi.nii.gz"
+  },
+  {
+    "sid": "subject002",
+    "t2s": "../data/subject002_t2s.nii.gz",
+    "t1": "../data/subject002_t1_in_t2s_space.nii.gz",
+    "t2": "../data/subject002_t2_in_t2s_space.nii.gz"
+  }
+]
